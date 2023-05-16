@@ -1,6 +1,7 @@
 # Project Title
 
 Just a simple Chrome extension to toggle designMode on and off
+(Chrome supports only)
 
 ## Project Description
 
