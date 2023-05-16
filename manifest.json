@@ -2,6 +2,8 @@
     "manifest_version": 3,
     "name": "Design Mode Toggle",
     "version": "1.0",
+    "author": "wibu1892001@gmail.com",
+    "description": "Just a simple Chrome extension to toggle designMode on and off (Chrome supports only)",
     "permissions": [
         "activeTab",
         "scripting",
