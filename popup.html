@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Design Mode Toggle</title>
+    <style>
+      body {
+        width: 180px;
+        height: 80px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+
+      button {
+        width: 80%;
+        height: 30px;
+      }
+      #status {
+        font-weight: bold;
+        font-size: larger;
+      }
+
+      #toggleButton {
+        background-color: #52c0f3;
+        border-radius: 8px;
+        border-style: none;
+        box-sizing: border-box;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        height: 40px;
+        line-height: 20px;
+        list-style: none;
+        margin: 0;
+        outline: none;
+        padding: 10px 16px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: color 100ms;
+        vertical-align: baseline;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+      }
+
+      #toggleButton:hover,
+      #toggleButton:focus {
+        background-color: #82cdf0;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="status">Design Mode: Off</p>
+    <button id="toggleButton">Toggle Edit</button>
+    <script defer src="popup.js"></script>
+  </body>
+</html>
