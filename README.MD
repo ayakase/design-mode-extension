@@ -8,4 +8,5 @@ When you want change the content of web pages, you'll have to grope in the eleme
 
 ## Installation
 
-Nothing special just download the .zip or clone it to your local machine, extract it then go to Chrome extensions management tab, Load unpacked (remember to turn on Developer mode )
+Nothing special just download the .zip or clone it to your local machine, extract it then go to Chrome extensions management tab, Load unpacked ( remember to turn on Developer mode )
+After turning on Developer mode, you can edit the page as you like.
