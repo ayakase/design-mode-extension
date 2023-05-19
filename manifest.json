@@ -6,8 +6,7 @@
     "description": "Just a simple Chrome extension to toggle designMode on and off (Chrome supports only)",
     "permissions": [
         "activeTab",
-        "scripting",
-        "storage"
+        "scripting"
     ],
     "background": {
         "service_worker": "background.js"
